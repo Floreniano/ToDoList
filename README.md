@@ -1,1 +1,2 @@
-# Создание ToDoList на html, scss, js.
+# Веб-приложение To-Do List
+## Приложение написано на html, scss, js.

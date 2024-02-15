@@ -23,7 +23,7 @@ const hidePopup = () => {
 const addTask = () => {
   const popup = document.getElementById('popup');
   buttonAddTask.disabled = true;
-  if (inputBox.value === '') {
+  if (inputBox.value === '' || inputBox.value.trim() === '') {
     popup.classList.add('active', 'error');
     popup.innerHTML = 'Заполните поле ввода';
     hidePopup();
